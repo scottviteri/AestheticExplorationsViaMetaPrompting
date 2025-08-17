@@ -1,4 +1,4 @@
-# AestheticExploration
+# Devotional Geometry
 
 A working space for generating and curating visual prompts that reflect a mathematical–mystical aesthetic (self-reference, geometry, information flow, “wisdom of nature,” Miyazaki-adjacent calm), plus lightweight analysis of prior conversations to mine themes for future prompts.
 
