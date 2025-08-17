@@ -1,4 +1,6 @@
-# Devotional Geometry
+# Aesthetic Explorations Via Meta Prompting
+
+I exported my conversation history with OpenAI, had gpt-5-nano parse it into themes and filter it for philosophically interesting ones, and then used that to prompt gpt-5 via Cursor or API to generate prompts for gpt-image-1 which evoke those themes. This repo contains the scripts I used and the final results. I printed each of these photos on Glossy Paper with a home printer and distributed them at my wedding.
 
 A working space for generating and curating visual prompts that reflect a mathematical–mystical aesthetic (self-reference, geometry, information flow, “wisdom of nature,” Miyazaki-adjacent calm), plus lightweight analysis of prior conversations to mine themes for future prompts.
 
