@@ -1,0 +1,5 @@
+Would you mind creating a file with suggestions of next image prompts, by looking at some example prompts in the prompts folder, and mixing random topics from philosophically_interesting_conversations.jsonl into prompts. Maybe emphasize combinations which are amenable to interesting visualization. I like the aesthetics of generate_fresh_prompts but they are lacking diversity.
+
+Then please create folders for each of those prompts as ./prompts/your_prompt/prompt.txt.
+
+Thanks!

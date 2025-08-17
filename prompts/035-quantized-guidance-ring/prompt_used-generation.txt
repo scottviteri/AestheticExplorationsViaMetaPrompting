@@ -1,0 +1,88 @@
+
+Role
+- Visual prompt designer producing concrete, beautiful scenes that are easy for an image model to render coherently.
+
+Directive
+- Generate inventive, diverse prompts that fit the aesthetic. Use the candidate aesthetic names as vibe anchors, not as literal content.
+
+Avoid
+- Global, fragile geometry the model cannot compose reliably.
+- Camera-as-subject gimmicks.
+- Over-indexing on botanical content; keep nature as an accent.
+
+Style anchors (optional; use sparingly)
+- Materials/mediums may include obsidian and opaline glass, bronze with verdigris, vellum with ink and goldleaf, paper-cut relief, macro product still, photoreal sculpture.
+
+Output rules
+- Each prompt must describe a clear, concrete scene with one focal subject.
+- Avoid all text/labels/equations in-frame unless tiny and incidental.
+- Keep materials, lighting, and composition specific and renderable.
+
+
+Diversity topics for this run (pick 1–2 groups; materialize as objects, no text; avoid copying wording):
+- language models; guidance; wisdom; learning; empathy; critical thinking; growth
+- trusts; foreign; domestic; taxation; jurisdiction; asset protection; estate planning
+- cost savings; quantization; pruning; model distillation; GPU optimization; inference techniques; efficiency strategies
+- Borel measure; single point; topology; T1 spaces; closed sets; measurability; Sierpiński space
+- Phong shading; 3D graphics; light interaction; reflection model; specular highlight; normals interpolation
+- Taylor expansion; arctan; ln; mathematics; functions; plotting; visualization
+
+Do not imitate the Good examples too closely; do not reuse their nouns or phrasing. They illustrate spirit and clarity only.
+
+Good examples (spirit to emulate, not to copy):
+- Mirrored corridor with recursive frames; tangible architectural subject.
+- Ouroboros via commutative squares as material micro-tiles; avoids text walls.
+- Infinite-book still life; concrete object with recursive concept.
+- Macro droplet recursion; photoreal, simple, elegant.
+- Mandelbrot as stained glass rose window; rich but coherent composition.
+- Julia shoreline in opaline glass; nature-metaphor works visually.
+
+Bad examples (avoid pitfalls):
+- Umbilic torus full-scene attempts: model struggles with global correctness and complexity.
+- Lambda forest unclear; reads as glyph spam unless extremely art-directed.
+- Mirror sculpture with visible camera is gimmicky; camera adds no visual value.
+- REPL words on nodes: shallow text-on-canvas without compelling imagery.
+- Gears with engraved symbols: trope-ish and shallow when not exquisitely realized.
+- Some macro ideas are good, but must remain concrete and text-sparse.
+- Category theory literal diagrams: often flat or messy; better as material motifs, not readable diagrams.
+- Sierpinski altar disappointed—literal negative-space triangle cutouts look bland without strong lighting/material story.
+- Banach spiral underwhelming unless sculptural/materially interesting.
+
+User feedback and constraints:
+Lead with mathematical mysticism and self-reference: strange loops, recursion, mirrors-within-mirrors, and fixed points made physical. Use nature and spirit as accents that support the math—never the main subject by default. Favor tangible sacral objects.
+Avoid camera-as-subject gimmicks and any busy, readable diagrams. Keep scenes concrete and renderable.
+
+Aesthetic vibe names (use as conceptual anchors only):
+- Functorial Ouroboros
+- Umbilic Mysticism
+- Latent Lattice
+- Cooperative Curvature
+- Deltoid Grace
+- Recursive Luminance
+- Diagrammatic Sacra
+- Fractal Fixpoints
+- Magic at the Fixed Point
+
+Pillars (condensed; motifs merged into pillars):
+- **Recursive sacred geometry**: toroidal and deltoid forms; self-similarity; mirrors within mirrors.
+- **Diagrammatic mysticism**: commutative squares, natural transformations, functors; diagrams presented as devotional objects.
+- **Prosocial techno-animism**: alignment as nurture; humane technology; communal intelligence.
+- **Liminal continuity**: phase transitions, boundaries-as-thresholds, discontinuity/continuity interplay.
+- **Embodied reflection**: dance, circling, breath-like flow; experience in the moment.
+- **Wisdom pacing**: capability versus wisdom; temperance, restraint, stewardship.
+- **Natural abstractions**: information geometry, manifold intuition, Clifford blades/rotors.
+- **Fractal recursion and fixed points**: self-similarity across scales; μ/ν fixed points as visual anchors; infinite-zoom vibes where math meets magic.
+- Motifs to weave in sparingly (folded into the above pillars): Umbilic torus (deltoid cross-section rotating ~60° along its path), Ouroboros, REPL loops, fixed-point Y, λ-calculus flourishes, Commuting diagrams, string diagrams, braided morphisms, Lattices (⊓, ⊔), posets, Hasse diagrams, phase spaces, Fiber bundles, atlases, charts, local-to-global gluing, Information-geometric manifolds, geodesic flows, Fisher metric heatmaps, Clifford algebra blades, bivector fields, rotors, Poincaré/conformal grids; hyperbolic tilings, Fractals: Mandelbrot/Julia sets, iterated function systems (IFS), L-systems, self-similar tilings, Authentic-relating circles; partner dancing arcs and holds
+
+Now produce strictly JSON with the following schema:
+{
+  "prompts": [
+    {
+      "title": "short human title",
+      "short_slug": "5-8 word slug",
+      "prompt": "final prompt text"
+    }
+  ]
+}
+
+Return exactly 1 entry in 'prompts'. Keep titles concise.

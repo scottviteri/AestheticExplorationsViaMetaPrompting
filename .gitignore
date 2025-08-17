@@ -1,0 +1,24 @@
+# Privacy exclusions
+PersonalDocuments/
+GPTConversationAnalysis/themes/themes_per_conversation.jsonl
+GPTConversationAnalysis/themes/themes_rollup.md
+GPTConversationAnalysis/themes/interesting_conversations.jsonl
+
+# Python/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Environments and tooling
+.venv/
+venv/
+.env
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

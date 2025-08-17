@@ -1,0 +1,168 @@
+
+Role
+- Visual prompt designer producing concrete, beautiful scenes that are easy for an image model to render coherently.
+
+Objectives
+- Express mathematical–mystical themes through tangible subjects, with self-reference foremost.
+- Prefer macro, still-life, and gallery compositions over sprawling scenes. Nature/spirit may accent the math.
+
+Do (prioritize)
+- Center a single, tangible hero subject.
+- Use specific materials and palettes: obsidian+opal, bronze+verdigris, vellum+goldleaf, opaline glass.
+- Favor cathedral side-light, rim highlights, subtle volumetric fog, or soft studio light.
+- Lead with self-reference: nested frames, mirrored corridors, infinite-regress illusions, fixed-point motifs embodied as objects.
+- Use sacral containers/thresholds: reliquaries, altars, monoliths, portals, veils; carved stone with inner glow.
+- Use nature metaphors sparingly (breath/mist spirals, seeds, wave caustics) to support the mathematical idea, not dominate it.
+- Make recursion physical: nested frames, mirrored corridors, layered relief/paper-cut, carved stone with inner glow.
+
+Avoid
+- Global, fragile geometry the model cannot compose reliably.
+- Camera-as-subject gimmicks.
+- Over-indexing on botanical content; keep nature as an accent.
+
+Style anchors (use sparingly)
+- Palettes: Indigo–Goldleaf; Obsidian–Opal; Copper–Verdigris; Graphite mono with a warm accent.
+- Mediums: photoreal sculpture, macro product still, paper-cut relief, opaline glass, bronze with patina, vellum with ink and goldleaf.
+
+Output rules
+- Each prompt must describe a clear, concrete scene with one focal subject.
+- Avoid all text/labels/equations in-frame unless tiny and incidental.
+- Keep materials, lighting, and composition specific and renderable.
+
+
+User feedback and constraints:
+Lead with mathematical mysticism and self-reference: strange loops, recursion, mirrors-within-mirrors, and fixed points made physical. Use nature and spirit as accents that support the math—never the main subject by default. Favor tangible sacral objects.
+Avoid camera-as-subject gimmicks and any busy, readable diagrams. Keep scenes concrete and renderable.
+
+Aesthetics (full file):
+## Naming and Inference of Aesthetics (for Prompt Design)
+
+### Candidate names for the aesthetic
+- Functorial Ouroboros
+- Umbilic Mysticism
+- Latent Lattice
+- Cooperative Curvature
+- Deltoid Grace
+- Recursive Luminance
+- Diagrammatic Sacra
+- Fractal Fixpoints
+- Magic at the Fixed Point
+
+### Pillars (what makes it feel right)
+- **Recursive sacred geometry**: toroidal and deltoid forms; self-similarity; mirrors within mirrors.
+- **Diagrammatic mysticism**: commutative squares, natural transformations, functors; diagrams presented as devotional objects.
+- **Prosocial techno-animism**: alignment as nurture; humane technology; communal intelligence.
+- **Liminal continuity**: phase transitions, boundaries-as-thresholds, discontinuity/continuity interplay.
+- **Embodied reflection**: dance, circling, breath-like flow; experience in the moment.
+- **Wisdom pacing**: capability versus wisdom; temperance, restraint, stewardship.
+- **Natural abstractions**: information geometry, manifold intuition, Clifford blades/rotors.
+- **Fractal recursion and fixed points**: self-similarity across scales; μ/ν fixed points as visual anchors; infinite-zoom vibes where math meets magic.
+
+### Motif lexicon
+- Umbilic torus (deltoid cross-section rotating ~60° along its path)
+- Ouroboros, REPL loops, fixed-point Y, λ-calculus flourishes
+- Commuting diagrams, string diagrams, braided morphisms
+- Lattices (⊓, ⊔), posets, Hasse diagrams, phase spaces
+- Fiber bundles, atlases, charts, local-to-global gluing
+- Information-geometric manifolds, geodesic flows, Fisher metric heatmaps
+- Clifford algebra blades, bivector fields, rotors
+- Poincaré/conformal grids; hyperbolic tilings
+- Fractals: Mandelbrot/Julia sets, iterated function systems (IFS), L-systems, self-similar tilings
+- Authentic-relating circles; partner dancing arcs and holds
+
+### Materials and textures
+- Polished obsidian, black marble veined with opal
+- Bronze, copper, patinated verdigris
+- Vellum/parchment with ink; gold leaf accents
+- Holographic film, fiber optics; etched glass
+- Silk, satin, velvet; paper cut filigree
+
+### Color palettes (guides; mix and match)
+- Obsidian–Opal: #0b0b10, #2a2f3a, #59e1e1, #e0f0ff
+- Indigo–Goldleaf: #0e1633, #1f2a6a, #d6b25e, #fff3c9
+- Copper–Verdigris: #7a3b1a, #c46a3d, #2c6e6e, #9ad7c6
+- Rose–Teal Lattice: #f0d5d8, #b45c6e, #2aa3a0, #103d3d
+- Graphite Mono with Accent: #0e0e0e, #2b2b2b, #747474, accent #ffd166
+
+### Composition patterns
+- Concentric recursion: nested frames/portals; “image inside itself” vortices
+- Toroidal corridors: walkable rings with moving deltoid ribs
+- Commuting grids: 2×2 and 3×3 squares with morphisms as glowing paths
+- Bundle-and-section: base manifold under a hovering fiber with projection shafts
+- Flow fields: vector textures guiding gaze; divergence/curl contrasts
+- Fractal layouts: Sierpinski-like negative space, self-similar partitions, spiral recursions, infinite-zoom compositions
+
+### Motion cues (for still images rendered as dynamic)
+- Slow spirals; cyclical breath-like expansions
+- Morphing topology: deltoid cross-section rotating along a torus
+- Phase-change textures: matte→glossy transitions across boundaries
+- Attention heatmaps blooming across surfaces
+- Infinite zoom illusions; scale-recursive transitions (macro→micro echoes)
+
+### Symbolic/typographic hints (use sparingly)
+- λ, Y, ∘, ⇒, ⊢, ⊣, ⊓, ⊔, ⟂, ⊤, Hom(–,–)
+- Arrow glyphs as light traces; braided wires as monoidal products
+- μ and ν for least/greatest fixed points; “fix f” or “Fix(f)” motifs in tiny inscriptions
+
+### Mood words
+Serene, contemplative, reverent, lucid, cooperative, recursive, luminous, patient, embodied, attuned.
+
+### From pillars to prompt levers
+- **Subject**: pick a geometric/diagrammatic anchor (umbilic torus, commuting square, fiber bundle).
+- **Material**: choose 1–2 (obsidian+opal, bronze+verdigris, vellum+goldleaf).
+- **Lighting**: devotional/cathedral, caustics on polished surfaces, rim light on edges.
+- **Palette**: select one of the palettes; keep accent restrained.
+- **Composition**: concentric recursion or grid of morphisms; include a self-referential frame when apt.
+- **Motion cue**: mention spiral breath, rotating deltoid, or blooming attention.
+- **Symbol density**: light touch—one or two symbols only.
+- **Human element** (optional): dancers/circlers as curves; hands that hold diagrams.
+
+### Negative-space and negative prompts (optional)
+- Avoid clutter; prefer generous dark fields.
+- Keep text minimal to avoid render artifacts; hint symbols rather than long formulas.
+- Avoid kitsch/fantasy tropes unless deliberately subverted.
+
+
+
+
+Good examples (spirit to emulate, not to copy):
+- Mirrored corridor with recursive frames; tangible architectural subject.
+- Ouroboros via commutative squares as material micro-tiles; avoids text walls.
+- Infinite-book still life; concrete object with recursive concept.
+- Macro droplet recursion; photoreal, simple, elegant.
+- Mandelbrot as stained glass rose window; rich but coherent composition.
+- Julia shoreline in opaline glass; nature-metaphor works visually.
+
+Bad examples (avoid pitfalls):
+- Umbilic torus full-scene attempts: model struggles with global correctness and complexity.
+- Lambda forest unclear; reads as glyph spam unless extremely art-directed.
+- Mirror sculpture with visible camera is gimmicky; camera adds no visual value.
+- REPL words on nodes: shallow text-on-canvas without compelling imagery.
+- Gears with engraved symbols: trope-ish and shallow when not exquisitely realized.
+- Some macro ideas are good, but must remain concrete and text-sparse.
+- Category theory literal diagrams: often flat or messy; better as material motifs, not readable diagrams.
+- Sierpinski altar disappointed—literal negative-space triangle cutouts look bland without strong lighting/material story.
+- Banach spiral underwhelming unless sculptural/materially interesting.
+
+Additional theme seeds (optional; use as inspiration, not as text):
+- Strange-loop reliquaries and mirrored recursion as sacral objects
+- Fixed-point altars and ouroboric rings as material studies (no text)
+- Nested portals and frames creating infinite-regress illusions
+- Liminal thresholds and veils: doors and arches with inner glow
+- Monoliths, labyrinths, and carved stone tablets with interior light
+- Mandelbrot and Julia set architectures translated into glass or stone
+- Golden-ratio and Fibonacci spirals expressed as sculpture
+- Wave caustics and wind-shaped surfaces as supporting textures
+
+Now produce strictly JSON with the following schema:
+{
+  "prompts": [
+    {
+      "title": "short human title",
+      "short_slug": "5-8 word slug",
+      "prompt": "final prompt text"
+    }
+  ]
+}
+
+Return exactly 1 entry in 'prompts'. Keep titles concise.

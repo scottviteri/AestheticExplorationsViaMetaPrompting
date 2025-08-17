@@ -1,0 +1,3 @@
+This was pretty good!
+Could you make more such prompts and corresponding folders, but this time try harder to creatively engage with the corresponding content from philosophically_interesting_conversations.jsonl?
+It is ok if you selectively pick topics (or mixtures of topics!) from the jsonl such that you can think of ways to depict the core idea in a load bearing fashion

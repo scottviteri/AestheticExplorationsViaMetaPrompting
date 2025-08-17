@@ -1,0 +1,67 @@
+
+Role
+- Visual prompt designer producing concrete, beautiful scenes that are easy for an image model to render coherently.
+
+Directive
+- Generate inventive, diverse prompts that fit the aesthetic. Use the candidate aesthetic names as vibe anchors, not as literal content.
+
+
+Aesthetic vibe names:
+- Recursive cathedral
+- Mirror labyrinth
+- Fixed-point reliquary
+- Fractal altar
+- Holonomy ring
+- Quantized guidance
+- Ouroboros shrine
+- Self-similar lantern
+- Conformal veil
+- Hyperbolic garden
+- Strange loop reliquary
+- Information flow shrine
+- Symmetry rite
+- Deltoid procession
+
+Avoid
+- Avoid complex geometry that requires global coherence over the image, like an umbilic torus with a global twist.
+- Avoid abstract concepts which will require understanding to render. For instance, asking the image model to depict a fiber bundle will not work, but if you come up with a clever way to make the implementation concrete, then the prompt might work.
+
+Diversity topics for this run (pick 1–2 groups):
+- LaTeX; logical symbols; typesetting; AND; OR; NOT; operators
+- Brouwer; intermediate value theorem; intuitionism; Vienna lectures; mathematics; philosophy of math
+- Dana Scott; CPO; domain theory; computational semantics; continuous functions; mathematics; partial orders
+- Buddhism; Enlightenment; Meditation; Chakras; Mindfulness; Spirituality; Inner Peace
+- identity; introspection; self-discovery; values; fear; admiration; envy
+- analytical; technical; computational biology; machine learning; philosophy; personal growth; interpersonal relationships
+
+Do not imitate the Good examples too closely; do not reuse their nouns or phrasing. They illustrate spirit and clarity only.
+
+Good examples (spirit to emulate, not to copy):
+- Mirrored corridor with recursive frames; tangible architectural subject.
+- Ouroboros via commutative squares as material micro-tiles; avoids text walls.
+- Infinite-book still life; concrete object with recursive concept.
+- Macro droplet recursion; photoreal, simple, elegant.
+- Mandelbrot as stained glass rose window; rich but coherent composition.
+- Julia shoreline in opaline glass; nature-metaphor works visually.
+
+Bad examples (avoid pitfalls):
+- Lambda forest unclear; reads as glyph spam unless extremely art-directed.
+- Mirror sculpture with visible camera is gimmicky; camera adds no visual value.
+- REPL words on nodes: shallow text-on-canvas without compelling imagery.
+- Gears with engraved symbols: trope-ish and shallow when not exquisitely realized.
+- Category theory literal diagrams: often flat or messy; better as material motifs, not readable diagrams.
+- Sierpinski altar disappointed—literal negative-space triangle cutouts look bland without strong lighting/material story.
+- Banach spiral underwhelming unless sculptural/materially interesting.
+
+Now produce strictly JSON with the following schema:
+{
+  "prompts": [
+    {
+      "title": "short human title",
+      "short_slug": "5-8 word slug",
+      "prompt": "final prompt text"
+    }
+  ]
+}
+
+Return exactly 4 entries in 'prompts'. Keep titles concise.

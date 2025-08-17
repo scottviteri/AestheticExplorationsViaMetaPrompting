@@ -1,0 +1,12 @@
+Ok, this time I will ask to create prompts in a bit of a different way.
+I am just going to look through the images we have so far and point out some themes that I would like to see more of.
+
+I like things that are fractal related and I want to see more raw fractal texture, like one might see in a video of traveling through a mandlebulb universe
+Visualizations of alien universes with different physics where those differences can be described mathematically but it is up to you (or the image model) to visualize given that description 
+Game of life aesthetics -- gliders and building complexity from simplicity
+I liked the chladni plate-like patterns of watter in the graph laplacian water harp prompt, and I would love to see more interesting spectral dynamics and arrangements of water physics 
+More various different kinds of curious mathematical famous objects that are amenable to visualization -- such as those listed on the page @https://en.wikipedia.org/wiki/List_of_topologies 
+  (eg sierpinski carpet triangle cantor koch snowflake menger sponge hawaiian earing space-filling curves, and creative mixtures therein
+I love the gradiousity and alienness of deep space and the surprises that we cannot comprehent
+
+Please add the prompts to folders, as before. Your help is truly appreciated, and I will credit you in the results of this work.
