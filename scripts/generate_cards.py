@@ -53,6 +53,8 @@ TEXT_PRINT_CMD = [
     "-o", "Resolution=600dpi",
 ]
 
+#    "-o", "MediaType=Plain",
+
 
 @dataclass
 class PromptDirItem:
@@ -372,6 +374,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     gen.add_argument("--max-count", type=int, default=0, help="Maximum number of prompts to process (0 = all)")
     gen.add_argument("--start", type=int, default=1, help="Start index (1-based)")
     gen.add_argument("--end", type=int, default=0, help="End index (inclusive; 0 = till end)")
+    gen.add_argument("--allow-additional", action="store_true", default=False, help="Force additional non-clobbering variants even if a front exists")
 
     pr = sub.add_parser("print", help="Print a generated card front/back/both by index (from folder name prefix)")
     pr.add_argument("--index", type=int, required=True, help="Prompt index (as parsed)")
@@ -409,16 +412,11 @@ def cmd_generate(args: argparse.Namespace) -> None:
 
     print(f"Generating {len(selected)} prompt folders → {PROMPTS_ROOT}")
 
-    # If exactly one target is selected, allow writing an additional variant even if a front exists
-    single_target = False
-    try:
-        # We compute selected before, so reuse below
-        pass
-    except Exception:
-        pass
+    # Allow additional variant across range if flag set, or implicitly if exactly one selected
+    allow_additional_flag = bool(args.allow_additional or (len(selected) == 1))
 
     def task_fn(item: PromptDirItem) -> Tuple[int, Path, Path]:
-        front_png, back_pdf, back_tex = generate_for_prompt_dir(item, allow_additional=(len(selected) == 1))
+        front_png, back_pdf, back_tex = generate_for_prompt_dir(item, allow_additional=allow_additional_flag)
         return (item.index, front_png, back_pdf)
 
     # Work queue maintaining up to --concurrency in-flight tasks
